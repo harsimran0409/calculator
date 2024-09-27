@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Dynamic Website</title>
+	<style>
+		
+		body {
+			background-color: #f2f2f2;
+			font-family: Arial, sans-serif;
+		}
+	</style>
+</head>
+<body>
+	
+	<h1 id="greeting"></h1>
+	
+	<script>
+		
+		document.addEventListener("DOMContentLoaded", function() {
+			let greeting = "Hello, World!";
+			document.getElementById("greeting").innerHTML = greeting;
+		});
+	</script>
+</body>
+</html>
